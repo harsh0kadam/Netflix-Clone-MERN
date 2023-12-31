@@ -1,0 +1,84 @@
+.movie-main{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+}
+.movie-carousel{
+    display: flex;
+    overflow: auto;
+width: 100vw;
+height: 240px;
+
+
+
+}
+.card{
+  width: 240px;
+    flex-shrink: 0;
+
+    height: 140px;
+  cursor: pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+
+  position: relative;
+   
+}
+.paddeddiv{
+    margin-top: 30px;
+    
+    
+}
+.overlap{
+   
+    position: relative;
+}
+/* .card:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+} */
+.hoverclass{
+    width: 240px;
+    height: 140px;
+    position: absolute;
+
+}
+.hoverclass:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+/* .card:hover .mini-player-actions{
+ 
+    
+} */
+.hoverclass:hover .mini-player-actions
+{
+    display: block;
+    position: absolute;
+     top: 140px;
+    
+     z-index: 100000;
+}
+
+.mini-player-actions{
+    display: none;
+   
+    padding: 10px;
+    
+}
+.mini-player{
+    width: 240px;
+    height: 140px;
+    position: relative;
+}
+.buttons{
+    
+    display: flex;
+ gap:10px;
+}.mini-details span{
+    font-size: 12px;
+}
+.mini-player-actions p{margin-top: 0; margin-bottom: 0;}
+.mini-play:hover{
+    color: greenyellow;
+}
